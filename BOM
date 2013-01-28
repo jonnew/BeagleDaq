@@ -1,0 +1,23 @@
+Bill of Materials for BeagleDAQ
+
+
+Qty     Vendor          Part #          Description                             References
+====    ==========      ===========     ========================                =============
+Converters:
+4       Texas Instr.    DAC8568         16-bit digital-to-analog converter      
+4       Analog Devices  AD7606          16-bit 200ksamp/sec simultaneous 
+                                        capture analog-to-digital converter
+
+Power:
+1       Texas Instr.    REF5050         4.5V voltage reference                  U3
+1       Texas Instr.    REF5025         2.5V voltage reference                  U7
+1       National Semi.  LM7806          +5V linear regulator                    PSU/U2
+1       National Semi.  TPS79650        LDO (5V)                                PSU/U1
+1       Texas Instr.    TPS7A4901       LDO (5V)                                PSU/u3
+
+Misc:
+1       Atmel           AT24C01B        1kbit 2-wire EEPROM                     U5
+3       Texas Instr.    TXB0108         8-bit level shifter                     U1, U4, U6
+1       Texas Instr.    SN74AHC139      4-to-2 demultiplexer                    U2
+1       Texas Instr.    TCA6416         16-bit I2C GPIO expander                GPIO/U1
+

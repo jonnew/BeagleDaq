@@ -1,0 +1,16 @@
+6V: LM7806, max Iout=1A
+  DVcc (5V): LP2981, max Iout=100mA
+    4x AD7606      30mA total
+    4x DAC8568     5mA total
+    1x SN74AHC139  50uA
+    3x TXB0108     20uA
+
+  AVcc (5V): TPS7A4901, max Iout=150mA
+    4x AD7606      30mA total
+    4x DAC8568     5mA total
+
+  2x REF50xx       2mA
+
+1V8: Beagleboard
+  1x AT24C01       3mA
+  1x TCA6416       20uA
